@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/phoneNumberInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите номер телефона"
+        android:inputType="phone"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/callTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/call_type_options"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/dateTimeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дата и время не выбраны"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/selectDateTimeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выбрать дату и время"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/durationInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите длительность (сек)"
+        android:inputType="number"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить запись" />
+</LinearLayout>

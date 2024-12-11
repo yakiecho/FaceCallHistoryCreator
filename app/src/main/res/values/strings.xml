@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Face Call History Creator</string>
+
+    <string-array name="call_type_options">
+        <item>Исходящий</item>
+        <item>Входящий</item>
+        <item>Без ответа</item>
+    </string-array>
+
+</resources>
